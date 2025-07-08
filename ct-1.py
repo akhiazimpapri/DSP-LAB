@@ -1,5 +1,6 @@
 ##consider a differencing equation y(n)=(1-a)*y(n-1)+a*x(n)
 # x(n)={1,2,2,10,2,2,1} here 0<a<1 obsevation of y(n) apply different value 
+
 import numpy as np
 import matplotlib.pyplot as plt
 

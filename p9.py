@@ -100,3 +100,15 @@ plt.legend()
 
 plt.tight_layout()
 plt.show()
+
+# A window in signal processing is a finite portion or segment of a longer (possibly infinite) signal. 
+# Since DFT (Discrete Fourier Transform) can only be applied to finite-length signals, we need to "cut out"
+# a portion of the signal to analyze — and this process is called windowing.
+
+#Window Function : A mathematical function used to shape the window (e.g., tapering the ends to reduce sudden jumps).
+
+# A window function (like Hanning) multiplies the original signal to:
+    # Smooth the edges
+    # Avoid sudden jumps at the start and end of the segment
+    # Reduce spectral leakage in the DFT
+
